@@ -1,119 +1,129 @@
-<div align="center">
-  <h1>ytmous</h1>
-  <p>Anonymous Youtube Proxy</p>
-</div>
+<p align="center">
+<kbd>
+<img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/images/logo.png">
+</kbd>
+</p>
+<h1 align="center">3kh0</h1>
+<p align="center">The better unblocked games website.</p>
 
-### Search, Click, and watch
-ytmous is an lightweight, and Anonymous Youtube Proxy. Designed for device with limited resource.
+This is the GitHub repo which is used to host the website. If you want to use the games on here on your website, please message me on discord at `3kh0_#6969` and we can talk! If you're looking for the link, click [here](https://3kh0.github.io).
 
-### There's no tracker and ads
-Only with a simple UI, ready for you to watch some videos in a second
+<!-- More people will be using light mode in their web browser -->
+[![Join us on Discord](https://invidget.switchblade.xyz/wv6huJAwEv?theme=light)](https://discord.gg/wv6huJAwEv)
 
-### Free and Open source
-ytmous is licensed under BSD 3 Clause and it's code is free. You can also host your own ytmous server. <b>It's easy!</b>
+> **Note**
+> **If you do fork this repo, please give the orginal repo a star! It helps out alot and only 30% of people who fork give me a star.**
 
-### Customizeable
-ytmous server owner could customize the frontend to what they would like. See [Customizing Frontend](#customizingfrontend)
+[![Stargazers repo roster for @3kh0/3kh0.github.io](https://reporoster.com/stars/light/3kh0/3kh0.github.io)](https://github.com/3kh0/3kh0.github.io/stargazers)
+[![Forkers repo roster for @3kh0/3kh0.github.io](https://reporoster.com/forks/light/3kh0/3kh0.github.io)](https://github.com/3kh0/3kh0.github.io/network/members)
 
-**DISCLAIMER:** ytmous could fetch, stream or download videos from YouTube, even copyrighted ones. Please respect all copyright laws.
+## Features
 
-## Screenshots
-![ytmous_homepage.png](https://raw.githubusercontent.com/Yonle/ytmous/nightly/screenshots/ytmous_homepage.png)
-![ytmous_mobile_search.png](https://raw.githubusercontent.com/Yonle/ytmous/nightly/screenshots/ytmous_mobile_search.png)
-![ytmous_mobile_channel.png](https://raw.githubusercontent.com/Yonle/ytmous/nightly/screenshots/ytmous_mobile_channel.png)
-![ytmous_mobile_playlists.png](https://raw.githubusercontent.com/Yonle/ytmous/nightly/screenshots/ytmous_mobile_playlists.png)
-![ytmous_mobile_watch.png](https://raw.githubusercontent.com/Yonle/ytmous/nightly/screenshots/ytmous_mobile_watch.png)
-![ytmous_desktop_watch.png](https://raw.githubusercontent.com/Yonle/ytmous/nightly/screenshots/ytmous_desktop_watch.png)
+- Site-wide tab cloaking
+- Easy to deploy
+- Clean UI
+- Cross platform
+- Easy to use
+- Light on host resources (For real this time)
+- And so much more!
 
-## Server Requirement
-- Node v16+ is advised.
-- Fast server network connection with ability to reach YouTube
+> **Note**
+> If you have any problems please open an issue, so we can fix it ASAP!
 
-## Configuration
-The code is reading the provided configuration from Environment Variable that comes from your system. These variable is **optional**.
+## Game Files
+Due to the amount of games, all of the games have been moved to a [new repo](https://github.com/3kh0/3kh0-Assets).
 
-- `LIMIT`: Search / Video result from playlist, channel, or search result limit. The smaller, The faster.
-- `VIDINFO_LIMIT`: Video information caching limit, Mostly used for streaming after watch page has been loaded. Default is `20`.
-- `USER_AGENT`: This variable is where we fake our user agent to request youtube.
-- `DLCHUNKSIZE`: Download Chunk Size. Default is 1 MB (1024 * 1024)
-- `NO_API_ENDPOINTS`: Disable API endpoints. By default, API Endpoints is enabled.
-- `NO_CACHE`: Disable Youtube Video Information caching. By default, caching is enabled for improving streaming speed, But also avoiding ratelimits as possible
-- `MAX_SPACE_SIZE`: `node --max-old-space-size=${process.env.MAX_SPACE_SIZE}`. Default is `freemem / 1.2` MB.
-- `NO_AUTO_KILL`: Do not automatically exit when memory usage reached `MAX_SPACE_SIZE` limit. By default, Server automatically exit and restart when limit reached.
-- `PORT`: Server port to listen to.
+## Host the CDN
+Thanks to [@Russell2259](https://github.com/Russell2259/) you can host your own 3kh0 CDN, instructions are located [here](https://github.com/3kh0/3kh0.github.io/wiki/Create-A-CDN-Server).
 
-## Customizing frontend
-You can customize your frontend by creating `local` directory to replace files from `views` or `public` directory.
+## Host the website
 
-- `local/views/` for backend rendering (`views`)
-- `local/public/` for static page (`public`)
+You can host our website on a cloud hosting solution like Replit or Render here. If you're unsure on what this does, use our own site, or find one someone else is hosting. <br>
 
+[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://github.com/3kh0/3kh0.github.io)
+[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/3kh0/3kh0.github.io)
+[![Deploy to IBM Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/3kh0/3kh0.github.io)
+[![Deploy to Amplify Console](https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/3kh0/3kh0.github.io)
+[![Run on Google Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/BinBashBanana/3kh0/3kh0.github.io)
+[![Deploy to Oracle Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/3kh0/3kh0.github.io/archive/refs/heads/main.zip)
+[![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F3kh0%2F3kh0.github.io) 
+[![Deploy with Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/3kh0/3kh0.github.io)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/3kh0/3kh0.github.io)
+
+## Docs
+The official 3kh0 docs can be found [here](https://github.com/3kh0/3kh0.github.io/wiki). If you want to make a theme this is the place!
+
+## Contributors
+
+Thank you to all of these amazing people for helping work on this project!
+
+[![Contrib](https://contrib.rocks/image?repo=3kh0/3kh0.github.io#)](https://github.com/3kh0/3kh0.github.io/graphs/contributors)
+
+And the people who worked on v3!
+
+[![Contrib](https://contrib.rocks/image?repo=3kh0/website-v3#)](https://github.com/3kh0/website-v3/graphs/contributors)
+
+And the people who worked on v2!
+
+[![Contrib](https://contrib.rocks/image?repo=3kh0/website-v2#)](https://github.com/3kh0/website-v2/graphs/contributors)
+
+And the people who worked on v1!
+
+[![Contrib](https://contrib.rocks/image?repo=3kh0/website-v1#)](https://github.com/3kh0/website-v1/graphs/contributors)
+
+## Contributing
+
+Contributions are always welcome!
+
+See [`contributing.md`](https://github.com/3kh0/3kh0.github.io/blob/main/CONTRIBUTING.md) for ways to get started.
+
+Please adhere to this project's [Code of Conduct](https://github.com/3kh0/3kh0.github.io/blob/main/.github/CODE_OF_CONDUCT.md).
+
+If you would like to help add games, you can do that here: [3kh0/3kh0-Assets](https://github.com/3kh0/3kh0-Assets), this repo only has the UI and other things
+
+## Run Locally
+
+First clone the project using command line
+
+```bash
+git clone https://github.com/3kh0/3kh0.github.io.git
 ```
-local
-├── public
-│   ├── Ubuntu-R.ttf
-│   ├── css
-│   │   ├── Toard.css
-│   │   └── style.css
-│   ├── index.html
-│   └── robots.txt
-└── views
-    ├── channel.ejs
-    ├── comments.ejs
-    ├── error.ejs
-    ├── playlist.ejs
-    ├── search.ejs
-    └── watch.ejs
+
+or if you have GitHub CLI
+
+```bash
+gh repo clone 3kh0/3kh0.github.io
 ```
 
-## Starting the server
-If this is your first time running this server, You may need to install it's dependencies first by executing `npm install`. 
+Since this project does not require a backend, for the best experience I suggest using [XAMPP](https://www.apachefriends.org/), cloning the repo into the Apache Server directory at `C:\xampp\htdocs` (for windows) or `/opt/lampp/htdocs` (for linux), setting the port to something like 8080, opening up a browser and going to [`localhost:8080`](http://localhost:8080)
 
-Then, you can start the server by executing:
-```sh
-npm start
-```
-or
-```
-PORT=3000 npm start
+You could also use something like [http-server](https://www.npmjs.com/package/http-server). You will need to have [NodeJS](https://nodejs.org) installed also.
+
+Running (npx)
+```bash
+npx http-server
 ```
 
-## API endpoints
-You can use ytmous API endpoints for your applications. The following endpoints are supported:
+Running (installing to global node_modules)
+```bash
+# Install
+npm install -g http-server
 
-### `/api/search`
-Endpoint to search videos.
+# Running
+http-server
+```
 
-#### Queries
-- `q` (String) **(Required)**
-  String to search with.
+> **Warning**
+> Cloning a repository with Git removes everything in the folder you do it in. If you're not careful, you can delete your hard drive, so please do not do this unless you know what you're doing.
 
-- `page` (Number)
-  Next page listing.
+## License
+View the full license [here](https://github.com/3kh0/3kh0.github.io/blob/main/LICENSE)
 
-### `/api/getPlaylistInfo/[playlistID]`
-Endpoint to list videos from playlist / channel.
+## Previous versions
 
-#### Parameters
-- `playlistID` **(Required)**
-  String of Playlist or Channel ID.
+Here are some of the previous versions of this project. To give you a
+sense, this is v4
 
-### `/api/getVideoInfo/[videoID]`
-Endpoint to give information of an YouTube video.
-
-#### Parameters
-- `videoID` **(Required)**
-  String of YouTube video ID
-
-### `/api/getComments/[videoID]`
-#### Parameters
-- `videoID` **(Required)**
-  String of YouTube video ID.
-
-#### Queries
-- `continuation` (String)
-  Continuation ID of an Comments. Used to fetch the next comment section.
-
-- `replyToken` (String)
-  Reply token. Used to view an reply of a comment.
-  To view continuation of an Reply comments, Put continuationID in `replyToken` query instead of `continuation`.
+- [Website v1](https://github.com/3kh0/website-v1)
+- [Website v2](https://github.com/3kh0/website-v2)
+- [Website v3](https://github.com/3kh0/website-v3)
